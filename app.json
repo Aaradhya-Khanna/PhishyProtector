@@ -2,6 +2,7 @@
   "expo": {
     "name": "PhishProtectorExpo",
     "slug": "PhishProtectorExpo",
+    "description": "An app for detecting phishy mails",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +19,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aaradhya47.PhishProtectorExpo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c2e4f7e7-d067-420d-8709-556ed88bddd8"
+      }
     }
   }
 }
